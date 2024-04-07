@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+<body>
+    <h1>buttons fr</h1>
+    <a href="https://google.com" ><button style="background-color: aliceblue; border-radius:25px;">Dont click</button></a>
+    <button onclick="dosomething()">click</button>
+    <p id="test"> TESTICLE</p>
+    <button style="background-color: aliceblue; border-radius:25px;" disabled>blocked L</button>
+
+    <script>
+        function dosomething() {
+            document.getElementById("test").innerHTML = "NOT TESTICLE";
+        }
+    </script>
+</body>
+</html>
